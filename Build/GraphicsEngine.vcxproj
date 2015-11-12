@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{54944A1C-68AE-4CE0-A554-738A20885F36}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GraphicsEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GXY_Projects\GraphicsEngine\Build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GraphicsEngine.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GraphicsEngine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GXY_Projects\GraphicsEngine\Build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GraphicsEngine.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GraphicsEngine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GXY_Projects\GraphicsEngine\Build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GraphicsEngine.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GraphicsEngine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GXY_Projects\GraphicsEngine\Build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GraphicsEngine.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GraphicsEngine</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4396</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_ITERATOR_DEBUG_LEVEL=2;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_ITERATOR_DEBUG_LEVEL=2;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4396</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_RELEASE;_ITERATOR_DEBUG_LEVEL=0;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_RELEASE;_ITERATOR_DEBUG_LEVEL=0;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4396</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4396</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FBXSDK_NEW_API;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\External\x86\Windows\MSVC\include;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\..\GLUS\src;C:\Program Files\Autodesk\FBX\Fbx Sdk\2015.1\include;C:\Development\Libraries\cpp\devil_1_7_8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/GXY_Projects/GraphicsEngine/GraphicsEngine -BE:/GXY_Projects/GraphicsEngine/Build --check-stamp-file E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/GXY_Projects/GraphicsEngine/GraphicsEngine -BE:/GXY_Projects/GraphicsEngine/Build --check-stamp-file E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/GXY_Projects/GraphicsEngine/GraphicsEngine -BE:/GXY_Projects/GraphicsEngine/Build --check-stamp-file E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/GXY_Projects/GraphicsEngine/GraphicsEngine -BE:/GXY_Projects/GraphicsEngine/Build --check-stamp-file E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/GXY_Projects/GraphicsEngine/GraphicsEngine/CMakeLists.txt;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Internal\FeatureTesting.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\feature_tests.cxx;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompiler.cmake.in;E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GXY_Projects\GraphicsEngine\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\GraphicsEngine.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\algorithm\Quicksort.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\algorithm\QuicksortPointer.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\color\Color.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\concurrency\ThreadSafeCounter.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\concurrency\ThreadsafeQueue.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\filter\GaussFilter.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONarray.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONdecoder.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONencoder.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONfalse.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnull.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnumber.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONobject.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONstring.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONtokens.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONtrue.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONvalue.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\AxisAlignedBox.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Line.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix3x3.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix4x4.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Plane.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Point4.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Quaternion.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Sphere.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Vector3.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise1D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise3D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\os\Directory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\ConeShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CubeShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CylinderShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\DomeShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\GridPlaneShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\Shape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\SphereShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\TorusShape.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\statistic\FrameCounter.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stereotype\KeyValueMap.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stereotype\Singleton.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stereotype\ValueVector.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stl\Helper.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\AxisAlignedBoundingBox.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\BoundingSphere.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\Command.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\StopCommand.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\Worker.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\WorkerManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\Event.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\EventManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\EventReceiver.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBuffer.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisample.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisampleManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\Program.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipeline.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipelineManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparable.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparableManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\VAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\Variables.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\PixelData.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArray.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArrayManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArray.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArrayManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisample.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisampleManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMap.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArray.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArrayManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactoryBase.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactory_DevIL.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureStandard.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDraw.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDrawFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\GroundPlane.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometry.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryVAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\Sky.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyDome.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkySphere.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyVAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisample.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisampleManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferBase.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMap.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMapManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\Ground.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundVAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\ConstantInterpolator.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\CubicInterpolator.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\Interpolator.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\LinearInterpolator.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\RefractiveIndices.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterial.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterialFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationLayer.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationStack.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Camera.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\CameraManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\OrthographicCamera.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\PerspectiveCamera.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewFrustum.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Viewport.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewportManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\DirectionalLight.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\Light.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\LightManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\PointLight.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\SpotLight.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\Mesh.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\MeshFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMesh.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMeshVAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\shadow\ShadowMap2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\Entity.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\EntityList.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\Font.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontVAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\input\User.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisample.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisampleManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessorVAO.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shader\ProgramManagerProxy.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraCascadedShadowMap2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraShadowMap2D.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\EntityCommandManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\UpdateCommand.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\debug\FpsPrinter.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironment.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironmentManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\InstanceNode.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\Node.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\NodeOwner.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\NodeTreeFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\Model.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octant.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octree.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeEntity.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntity.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntityManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\groundentity\GroundEntity.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\modelentity\ModelEntity.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\CirclePath.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\LinePath.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedCirclePath.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedLinePath.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\Path.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\PathEntityManager.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\camerafactory\CameraEntityFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxEntityFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxSubMesh.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAccessor.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAnimation.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBin.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBufferView.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfChannel.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityDecoderFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityEncoderFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfInstanceSkin.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfMesh.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfNode.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfPrimitive.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSampler.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSkin.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\groundfactory\GroundEntityFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\lightfactory\LightEntityFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\primitivefactory\PrimitiveEntityFactory.h" />
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\UsedLibs.h" />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\GraphicsEngine.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\color\Color.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\concurrency\ThreadSafeCounter.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\filter\GaussFilter.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONarray.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONdecoder.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONencoder.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONfalse.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnull.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnumber.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONobject.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONstring.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONtrue.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONvalue.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\AxisAlignedBox.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Line.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix3x3.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix4x4.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Plane.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Point4.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Quaternion.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Sphere.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Vector3.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise1D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise3D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\os\Directory_Windows.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\ConeShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CubeShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CylinderShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\DomeShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\GridPlaneShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\Shape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\SphereShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\TorusShape.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\statistic\FrameCounter.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\AxisAlignedBoundingBox.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\BoundingSphere.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\StopCommand.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\Worker.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\WorkerManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\Event.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\EventManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBuffer.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisample.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisampleManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\Program.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipeline.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipelineManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparable.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparableManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\VAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\PixelData.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArray.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArrayManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArray.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArrayManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisample.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisampleManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMap.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArray.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArrayManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactoryBase.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactory_DevIL.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureStandard.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDraw.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDrawFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\GroundPlane.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometry.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryVAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\Sky.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyDome.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkySphere.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyVAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisample.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisampleManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferBase.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMap.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMapManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\Ground.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundVAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\ConstantInterpolator.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\CubicInterpolator.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\LinearInterpolator.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterial.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterialFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationLayer.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationStack.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Camera.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\CameraManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\OrthographicCamera.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\PerspectiveCamera.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewFrustum.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Viewport.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewportManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\DirectionalLight.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\Light.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\LightManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\PointLight.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\SpotLight.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\Mesh.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\MeshFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMesh.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMeshVAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\shadow\ShadowMap2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\Entity.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\EntityList.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\Font.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontVAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\input\User.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisample.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisampleManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessorVAO.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shader\ProgramManagerProxy.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraCascadedShadowMap2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraShadowMap2D.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\EntityCommandManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\UpdateCommand.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\debug\FpsPrinter.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironment.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironmentManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\InstanceNode.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\Node.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\NodeTreeFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\Model.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octant.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octree.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeEntity.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntity.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntityManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\groundentity\GroundEntity.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\modelentity\ModelEntity.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\CirclePath.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\LinePath.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedCirclePath.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedLinePath.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\Path.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\PathEntityManager.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\camerafactory\CameraEntityFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxEntityFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxSubMesh.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAccessor.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAnimation.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBin.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBufferView.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfChannel.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityDecoderFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityEncoderFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfInstanceSkin.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfMesh.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfNode.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfPrimitive.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSampler.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSkin.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\groundfactory\GroundEntityFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\lightfactory\LightEntityFactory.cpp"  />
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\primitivefactory\PrimitiveEntityFactory.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/GXY_Projects/GraphicsEngine/Build/ZERO_CHECK.vcxproj">
+      <Project>CD1121E3-2D61-4433-8334-7095AE26C1CC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

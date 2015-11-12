@@ -1,0 +1,1164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\GraphicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\color\Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\concurrency\ThreadSafeCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\filter\GaussFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONarray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONdecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONencoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONfalse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnumber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONtrue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONvalue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\AxisAlignedBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix3x3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix4x4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Point4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\os\Directory_Windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\ConeShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CubeShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CylinderShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\DomeShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\GridPlaneShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\Shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\SphereShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\TorusShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\statistic\FrameCounter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\AxisAlignedBoundingBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\BoundingSphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\StopCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\Worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\WorkerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\EventManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisampleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipelineManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparableManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\VAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\PixelData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArrayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArrayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisampleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArrayManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactoryBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactory_DevIL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureStandard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDrawFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\GroundPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryVAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\Sky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyDome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkySphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyVAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisampleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMapManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\Ground.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundVAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\ConstantInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\CubicInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\LinearInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterialFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\CameraManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\OrthographicCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\PerspectiveCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewFrustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Viewport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewportManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\DirectionalLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\LightManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\PointLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\SpotLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\MeshFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMeshVAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\shadow\ShadowMap2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\Entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\EntityList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontVAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\input\User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisampleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessorVAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shader\ProgramManagerProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraCascadedShadowMap2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraShadowMap2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\EntityCommandManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\UpdateCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\debug\FpsPrinter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironmentManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\InstanceNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\NodeTreeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\groundentity\GroundEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\modelentity\ModelEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\CirclePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\LinePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedCirclePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedLinePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\Path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\PathEntityManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\camerafactory\CameraEntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxEntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxSubMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAccessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBufferView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfChannel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityDecoderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityEncoderFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfInstanceSkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSkin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\groundfactory\GroundEntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\lightfactory\LightEntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\primitivefactory\PrimitiveEntityFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\GraphicsEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\algorithm\Quicksort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\algorithm\QuicksortPointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\color\Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\concurrency\ThreadSafeCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\concurrency\ThreadsafeQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\filter\GaussFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONarray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONdecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONencoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONfalse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONnumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONtokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONtrue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\json\JSONvalue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\AxisAlignedBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Line.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Point4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\math\Vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\noise\PerlinNoise3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\os\Directory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\ConeShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CubeShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\CylinderShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\DomeShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\GridPlaneShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\SphereShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\primitive\TorusShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\statistic\FrameCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stereotype\KeyValueMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stereotype\Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stereotype\ValueVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer0\stl\Helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\AxisAlignedBoundingBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\collision\BoundingSphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\StopCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\Worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\command\WorkerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\EventManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\event\EventReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\renderbuffer\RenderBufferMultisampleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\Program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramPipelineManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\ProgramSeparableManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\VAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\shader\Variables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\PixelData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DArrayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture1DManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DArrayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\Texture2DMultisampleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapArrayManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureCubeMapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactoryBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureFactory_DevIL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer1\texture\TextureStandard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\DebugDrawFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\GroundPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\debug\LineGeometryVAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\Sky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyDome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkySphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\environment\SkyVAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBuffer2DMultisampleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\framebuffer\FrameBufferCubeMapManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\Ground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\ground\GroundVAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\ConstantInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\CubicInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\Interpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\interpolation\LinearInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\RefractiveIndices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer2\material\SurfaceMaterialFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\animation\AnimationStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\CameraManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\OrthographicCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\PerspectiveCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewFrustum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\Viewport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\camera\ViewportManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\DirectionalLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\LightManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\PointLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\light\SpotLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\MeshFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\mesh\SubMeshVAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer3\shadow\ShadowMap2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\entity\EntityList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\font\FontVAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\input\User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessor2DMultisampleManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\postprocess\PostProcessorVAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shader\ProgramManagerProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraCascadedShadowMap2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer4\shadow\OrthographicCameraShadowMap2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\EntityCommandManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\command\UpdateCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\debug\FpsPrinter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\environment\DynamicEnvironmentManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\InstanceNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\NodeOwner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer5\node\NodeTreeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\model\ModelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\Octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer6\octree\OctreeFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer7\entity\GeneralEntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\groundentity\GroundEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\modelentity\ModelEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\CirclePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\LinePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedCirclePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\OrientedLinePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\Path.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer8\path\PathEntityManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\camerafactory\CameraEntityFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxEntityFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\fbxfactory\FbxSubMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfBufferView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfChannel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityDecoderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfEntityEncoderFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfInstanceSkin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\gltffactory\GlTfSkin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\groundfactory\GroundEntityFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\lightfactory\LightEntityFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\layer9\primitivefactory\PrimitiveEntityFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\src\UsedLibs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\GXY_Projects\GraphicsEngine\GraphicsEngine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{797B4BF5-9F9B-4861-BC4C-5145A2AC2D2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{32D5C7D7-C163-48A5-B234-BE13E4D36A7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
